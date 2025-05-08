@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
+
+:root {
+    --cor-principal:#90B3FA ;
+    --cor-secundaria: #4573f1;
+    --cor-destaque: #1240da ;
+
+}
+
+body {
+    font-family: 'Dancing Script', sans-serif ;
+}
+
+h1, h2, h5 {
+    color: #90B3FA;
+    font-weight: 700;
+}
+
+footer a {
+    color: var(--cor-principal);
+}
+
+footer a:hover {
+    color: var(--cor-destaque);
+}
